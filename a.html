@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#ffff]">
+
+
+     <div class="relative flex min-h-screen items-center justify-center bg-[#E5E7EB] p-4 overflow-hidden">
+  
+  <!-- Fandagi xira doiralar (Background Blur elementlari) -->
+  <div class="absolute top-10 left-10 h-72 w-72 rounded-full bg-purple-300 opacity-50 blur-3xl"></div>
+  <div class="absolute bottom-10 right-10 h-72 w-72 rounded-full bg-blue-300 opacity-50 blur-3xl"></div>
+
+  <!-- Asosiy Forma Konteyneri -->
+  <div class="relative w-full max-w-[700px] rounded-2xl bg-white/80 p-8 shadow-xl backdrop-blur-md md:p-12">
+    
+    <!-- Sarlavha -->
+    <h2 class="mb-8 text-center text-xl font-bold uppercase tracking-wide text-gray-800">
+      Форма заявки
+    </h2>
+
+    <!-- Forma elementlari -->
+    <form class="space-y-4">
+      
+      <!-- Ism va Email (Bir qatorda) -->
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <input 
+          type="text" 
+          placeholder="Ваше имя" 
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-700 outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500"
+        />
+        <input 
+          type="email" 
+          placeholder="Ваш e-mail" 
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-700 outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500"
+        />
+      </div>
+
+      <!-- Xabar kiritish joyi (Textarea) -->
+      <div>
+        <textarea 
+          rows="4" 
+          placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)" 
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-700 outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 resize-none"
+        ></textarea>
+      </div>
+
+      <!-- Yuborish tugmasi -->
+      <div class="flex justify-center pt-2">
+        <button 
+          type="submit" 
+          class="rounded-lg bg-[#A200A5] px-10 py-3 text-sm font-semibold text-white transition-all hover:bg-[#800084] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+        >
+          отправить
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>
+    
+    <header>
+        <div class="mx-auto max-w-[1154px] flex items-center justify-between mt-15">
+            <div>
+                <img src="imges/Group 2.png" alt="">
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex items-center gap-5">
+                        <li>
+                            <a class="text-[#737373]" href="">отзывы</a>
+                        </li>
+                           <li>
+                            <a class="text-[#737373]" href="">что это?</a>
+                        </li>   <li>
+                            <a class="text-[#737373]" href="">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-[1154px] mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="">
+                   <h1 class="text-[50px] pt-30">Инновационные коврики <br>
+для автомобиля</h1>
+                  
+             <button class="w-[179px] h-[53px] bg-[#a3145e] rounded-[9999px] mt-9">ЗАКАЗАТЬ</button>
+                </div>
+                <div>
+                   <img src="imges/коврф 1 (1).png" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1 class="text-[50px] text-center">Что такое <span class="text-[#2E3192]">EVA</span> коврики?</h1>
+                <div class="flex items-center justify-between mx-auto max-w-[1199px] mt-20">
+                    <div class="w-[344px] h-[500px] bg-[#f5f3f3] rounded-[20px] shadow-sm">
+                         <img class="rounded-t-[20px]  " src="imges/image00004 1 (1).jpg" alt="">
+                         <h1 class="text-[36px] pb-1 p-3">МАТЕРИАЛ</h1>
+                         <p class="w-[289px] h-[106px] p-5">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. </p>
+                    </div>
+                 <div class="w-[344px] h-[500px] bg-[#f5f3f3] rounded-[20px] shadow-sm">
+                         <img class="rounded-t-[20px]  " src="imges/file 1 (1).jpg" alt="">
+                         <h1 class="text-[36px] pb-1 p-3">ОТЛИЧИЯ</h1>
+                         <p class="w-[289px] h-[106px] p-5">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. </p>
+                    </div>
+                    <div class="w-[344px] h-[500px] bg-[#f5f3f3] rounded-[20px] shadow-sm">
+                         <img class="rounded-t-[20px]  " src="imges/kov1-1-300x225 1 (1).jpg" alt="">
+                         <h1 class="text-[36px] pb-1 p-3">РАСЦВЕТКА</h1>
+                         <p class="w-[289px] h-[106px] p-5">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#eb3679] w-full p-20 max-w-[100%] mx-auto mt-40">
+            <div class="flex justify-between ">
+                <div class=" p-[30px] h-[187px] bg-white rounded-[9px]">
+                    <p class="w-[354px] text-center">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+                </div>
+                  <div class=" p-[30px] text-center h-[187px] bg-white rounded-[9px]">
+                    <p class="w-[354px] ">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+                  </div>
+                    <div class=" p-[30px] h-[187px] bg-white rounded-[9px] text-center">
+                        <p class="w-[354px]">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="p-40 flex justify-between">
+            <div>
+                <h1>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h1>
+                <img src="imges/512px-Instagram_new 1 (2).png" alt="">
+            </div>
+            <div>
+                <h1>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h1>
+                <p>+375 29 292-29-29 (VEL) <br>
+
++375 33 333-33-33 (МТС)</p>
+            </div>
+            <div>
+                <h1>О НАС</h1>
+                <p>Индивидуальное изготовление <br>
+                    EVA ковриков для вашего автом</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+   
+</body>
+</html>
